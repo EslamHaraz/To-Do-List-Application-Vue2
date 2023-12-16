@@ -1,12 +1,12 @@
 # To-Do-List-Application-Vue2
 I have learned from many sources such as Stack Overflow and MDM. I do projects and solve problems to develop programmatic logic. In this project I used the following || Vue2 || Vue Router || Vuex || Axios || Json Server || Vuelidate
-The site contains a crud system , Through it, you can add, delete or modify
+# The site contains a crud system , Through it, you can add, delete or modify
 also site monitors the time period within which tasks are available to be delivered 
 also site supports dark and light mode and also supports Arabic and English
 The site has a feature to recover the password via a security question
 The employee can also comment on tasks and wait for a response from the manager
 # To-Do-List-Application-Vue2
-سشيشسيشس
+
 
 ## Project setup
 ```
