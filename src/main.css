@@ -1,0 +1,144 @@
+@import "./assets/modes/darkTheme.css";
+@import "./assets/modes/lightTheme.css";
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Tajawal:wght@200;300&display=swap");
+* {
+  box-sizing: border-box;
+  transition: 0.1s ease;
+}
+body {
+  background-color: var(--body-color);
+  font-family: "Cairo", sans-serif;
+  overflow-x: hidden;
+}
+.text-color {
+  color: var(--font-color);
+}
+.text-initial {
+  text-align: initial;
+}
+.link-color {
+  color: var(--links-color);
+}
+.feedback-error {
+  color: red;
+  margin: 0;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 5px;
+  text-align: initial;
+}
+.d-Flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+tr.header th {
+  padding: 8px;
+}
+tr.header th:nth-child(1) {
+  width: 10px;
+}
+td.pinding {
+  background-color: #ffc107 !important;
+}
+td.finished {
+  background-color: var(--green-color) !important;
+}
+td.refused {
+  background-color: var(--bs-danger) !important;
+}
+td.pinding,
+td.finished {
+  color: white !important;
+  width: 150px;
+}
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border: 1px solid #7373733d;
+  vertical-align: middle;
+}
+@media (max-width: 768px) {
+  .td-None {
+    display: none;
+  }
+}
+.small-img {
+  max-width: 100%;
+  width: 80px;
+}
+.modal-content {
+  background-color: var(--body-color);
+  color: var(--font-color);
+}
+label {
+  font-size: 19px;
+}
+svg:hover,
+a:hover {
+  color: var(--main-color);
+}
+
+li.active {
+  background-color: var(--hover-bg-color);
+  color: var(--main-color);
+}
+li.active h6,
+li.active svg,
+li.active a {
+  color: var(--main-color);
+}
+li {
+  list-style: none;
+}
+.main-color {
+  color: var(--main-color);
+}
+
+.data-message,
+.signIn-btn {
+  background-color: var(--main-color);
+  border: none;
+}
+.signIn-btn:hover {
+  background-color: #3bc0c387;
+}
+.bounce-enter-active {
+  animation: bounce-in 0.5s;
+}
+.bounce-leave-active {
+  animation: bounce-in 0.5s reverse;
+}
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}

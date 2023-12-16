@@ -1,0 +1,126 @@
+{
+  "Employees": [
+    {
+      "Name": "Ali Haraz",
+      "Email": "aliaharaz@yahoo.com",
+      "Password": "ali_4080",
+      "Phone": "01285362718",
+      "Photo": "https://www.shutterstock.com/image-photo/image-happy-brunette-man-wearing-260nw-1489874846.jpg",
+      "Address": "المنزله دقهليه ارض صقر بجوار مستودع الغاز",
+      "Type": "male",
+      "Language": "en",
+      "securityQuestion": "What is your best friend's name ?",
+      "Answer": "abderlramhamn",
+      "Mode": "dark",
+      "Status": "Good",
+      "id": 2
+    }
+  ],
+  "Mangers": [
+    {
+      "Name": "ebrahiem",
+      "Email": "themanger@gmail.com",
+      "Password": "ali_2030",
+      "Phone": "01285362718",
+      "Photo": "https://www.shutterstock.com/image-photo/image-happy-brunette-man-wearing-260nw-1489874846.jpg",
+      "Address": "المنزله دقهليه ارض صقر بجوار مستودع الغاز",
+      "Type": "male",
+      "Language": "en",
+      "securityQuestion": "What is your best friend's name ?",
+      "Answer": "abderlramhamn",
+      "Mode": "dark",
+      "Status": "Good",
+      "id": 1
+    },
+    {
+      "Name": "Gana Mohamed",
+      "Email": "ganamohamed@yahoo.com",
+      "Password": "gana_4040",
+      "Phone": "01274845456",
+      "Photo": "https://neswan.cc/wp-content/uploads/2018/07/4435-2.jpg",
+      "Address": "المنزله دقهليه ارض صقر بجوار مستودع الغاز",
+      "Type": "Female",
+      "Language": "ar",
+      "Permissions": "Manger",
+      "securityQuestion": "What is the name of your favorite animal ?",
+      "Answer": "cat",
+      "Mode": "dark",
+      "id": 2
+    }
+  ],
+  "Tasks": [
+    {
+      "TaskContent": "<h2 class=\"ql-align-center\">قم ببناء موقع باستخدام التقنيات الاتيه : Html CSS Bootsrab js</h2><p class=\"ql-align-center\"><br></p><h3 class=\"ql-align-center\">يجب الموقع ان يحتوي علي الصفحات الاتيه : من نحن - سياسه الخصوصيه - اتصل بنا - اخر الاخبار</h3>",
+      "Date": "2023-11-01",
+      "employeeId": 1,
+      "Agree": "acceptance",
+      "Status": "finished",
+      "DeliveryValidaty": false,
+      "id": 1
+    },
+    {
+      "TaskContent": "<h2 class=\"ql-align-center\"><strong style=\"color: rgb(230, 0, 0);\">قم ببناء موقع باستخدام التقنيات الاتيه : Html CSS Bootsrab js</strong></h2><p class=\"ql-align-center\"><br></p><h3 class=\"ql-align-center\"><strong style=\"color: rgb(230, 0, 0);\">يجب الموقع ان يحتوي علي الصفحات الاتيه : من نحن - سياسه الخصوصيه - اتصل بنا - اخر الاخبار</strong></h3><p><br></p>",
+      "Date": "2023-11-03",
+      "employeeId": 1,
+      "Note": "",
+      "Status": "pinding",
+      "DeliveryValidaty": false,
+      "Agree": "",
+      "id": 2
+    },
+    {
+      "TaskContent": "<h2 class=\"ql-align-center\"> محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك </h2>",
+      "Date": "2023-11-23",
+      "employeeId": 1,
+      "Note": "",
+      "Agree": "acceptance",
+      "Status": "finished",
+      "DeliveryValidaty": true,
+      "id": 3
+    }
+  ],
+  "SiteSettings": [
+    {
+      "SiteNameEnglish": "velonic ",
+      "SiteNameArabic": "فيلونيك ",
+      "SiteDescriptionEnglish": "ldkigdsahfkjsdhgfklsdafksdgfksdgfsdfgsdkfkjsdafhlsdafjsdfgkjsdlfgksdgfkjsdlfgkaljsdfglkjsdafgksdafgkjsdlgflkasdfgksdfgkjsdf",
+      "SiteDescriptionArabic": "سلمثينااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااااكشباليمنشابشسيابسيبميا",
+      "SiteLogo": "https://themes.getappui.com/techzaa/velonic/layouts/assets/images/logo.png",
+      "SiteIcon": "https://cdn3d.iconscout.com/3d/premium/thumb/website-ads-5806308-4863037.png",
+      "SiteStatus": "مفتوح",
+      "id": 1
+    }
+  ],
+  "Comments": [
+    {
+      "TaskId": 2,
+      "UserId": 1,
+      "Reply": "انت تعمل اللي اتكتب وخلاص ملكش دعوه انت بالباقي اللي اتطلب منك اعمله وخلاص",
+      "Comment": "في معلومات كتيره ناقصه في المتطلبات بتاعت المشروع ده",
+      "id": 1
+    },
+    {
+      "TaskId": 3,
+      "UserId": 1,
+      "Reply": "الرد الرد الرد الرد الرد الرد الرد الرد الرد الرد الرد الرد الرد الرد ",
+      "Comment": "محتوي التعليق محتوي التعليق محتوي التعليق محتوي التعليق محتوي التعليق",
+      "id": 2
+    }
+  ],
+  "Pages": [
+    {
+      "ArabicName": "من نحن",
+      "EnglishName": "Who Is Are",
+      "ArabicContent": "<h2 class=\"ql-align-right\"><strong style=\"color: rgb(230, 0, 0);\">  محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه    محتوي الصفحه  </strong></h2>",
+      "EnglishContent": "<h3><strong>   Page Content    Page Content    Page Content    Page Content    Page Content    Page Content    Page Content    Page Content    Page Content    Page Content    Page Content    Page Content    Page Content    Page Content    Page Content    Page Content    Page Content    Page Content    Page Content    Page Content    Page Content    Page Content    Page Content    Page Content </strong></h3>",
+      "id": 1
+    },
+    {
+      "ArabicName": "الاسم بالعربي",
+      "EnglishName": "english name",
+      "ArabicContent": "<p class=\"ql-align-center\"><strong> المحتوي بالعربي   محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك  محتوي التاسك </strong></p>",
+      "EnglishContent": "<p class=\"ql-align-center\"><strong>English Content English Content English Content English Content English Content English Content English Content English Content English Content English Content English Content English Content English Content English Content English Content English Content English Content English Content English Content English Content English Content English Content English Content </strong></p>",
+      "id": 2
+    }
+  ]
+}

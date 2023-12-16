@@ -1,0 +1,35 @@
+html[data-theme-mode="dark"] {
+  --main-color: #3bc0c3;
+  --body-color: #2d333c;
+  --font-color: #a2acb9;
+  --hover-color: #bccee4;
+  --links-color: #aeb4bf;
+  --section-color: #313a46;
+  --sidebar-color: #313a46;
+  --badge-color: #4489e4;
+  --danger-color: #d03f3f;
+  --header-color: #2f3742;
+  --hover-bg-color: #404853;
+  /* Colors of the statistics system */
+  --bink-color: #f24f7c;
+  --blue-color: #33b0e0;
+  --Purple-color: #716cb0;
+  --green-color: #3bc0c3;
+  --red-color: #513b45;
+}
+table {
+  color: var(--font-color);
+}
+tr.header {
+  background-color: var(--header-color);
+}
+
+tbody td {
+  background-color: var(--header-color) !important ;
+  color: var(--font-color) !important;
+  font-size: 18px;
+}
+.user-img-border {
+  border-bottom: 4px solid var(--links-color) !important;
+  border-right: 4px solid var(--links-color) !important;
+}
